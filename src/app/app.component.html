@@ -1,0 +1,26 @@
+<h4>Swiper</h4>
+
+<hr>
+
+<swiper
+      [slidesPerView]="1"
+      [spaceBetween]="10"
+      [navigation]="true"
+      [pagination]="{ clickable: false }"
+      [scrollbar]="{ draggable: false }"
+    >
+      <ng-template swiperSlide>
+        <div class="image-container">
+          <img  src="https://picsum.photos/id/1018/400/300" alt="Slide 1">
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://picsum.photos/id/1021/400/300" alt="Slide 2">
+      </ng-template>
+      <ng-template swiperSlide>
+        <img src="https://picsum.photos/id/1025/400/300" alt="Slide 3">
+      </ng-template>
+      <ng-template swiperSlide>Slide 4</ng-template>
+      <ng-template swiperSlide>Slide 5</ng-template>
+      <ng-template swiperSlide>Slide 6</ng-template>
+    </swiper>
